@@ -16,6 +16,7 @@ class FlightSearchViewModel : ObservableObject {
     
     var repository = FlightsRepository()
     
+    
     func searchFlights(departure: String, arrival: String, departureDate: Date) {
         
         repository.fetchFlights()
